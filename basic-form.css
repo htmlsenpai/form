@@ -1,0 +1,99 @@
+
+        body {
+            background: url('https://images.unsplash.com/photo-1613378141940-51e056bbdfda?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80');
+        }
+        
+        h1 {
+            text-align: center;
+            font-style: italic;
+            font-size: 45px;
+            padding: 15px;
+            color: #e5e5e5;
+            text-shadow: 0 0 8px #5d5d5d;
+            font-family: Cochin, serif;
+            cursor: pointer;
+        }
+
+        h1:hover {
+            color:#00bfff;
+            text-shadow: 0 0 8px #ffffff;
+        }
+
+        form {
+            margin: auto;
+            padding: 50px;
+            justify-content: center;
+            border: 30px solid lightgray;
+            background: #b1b1b1;
+            border-radius: 10px;
+            height: 60%;
+            width: 30%;
+        }
+
+
+        label {
+            font-family: Geneva, sans-serif;
+            font-weight: bolder;
+            text-shadow: 0 0 5px #e5e5e5;
+            color: #448ba1;
+            font-style: italic;
+            text-transform: uppercase;
+            font-size: 25px;
+            margin: auto;
+        }
+
+        input {
+            border: none;
+            background: transparent;
+            border-bottom: 4px solid #6d9bbe;
+            font-size: 15px;
+            font-style: italic;
+            padding: 15px;
+            padding-bottom: 5px;
+            margin: 4px;
+            width: 100%;
+        }
+
+        label:after {
+            content: " * ";
+            color: #b22222;
+        }
+
+        #button {
+            background-color: #ffffff;
+            border-radius: 15px;
+            border: none;
+            color: #5580a9;
+            font-weight: bolder;
+            font-size: 25px;
+            text-transform: uppercase;
+            padding: 6px;
+            float: right;
+            position: relative;
+            margin: 5px;
+            width: 40%;
+            cursor: pointer;
+        }
+
+        #button:hover {
+            color: #757575;
+            text-shadow: 0 0 10px #5f5f5f;
+        }
+
+        .correct {
+            background-color: #90ee90;
+        }
+
+        .error {
+            background-color: #b22222;
+        }
+    
+
+        #warning {
+          color: #cb6767;
+          text-shadow: 0 0 1px #000;
+          font-size: 25px;
+          font-style: italic;
+        }
+
+
